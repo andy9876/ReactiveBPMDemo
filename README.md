@@ -9,7 +9,10 @@ It currently installs BPM Suite 6.3 and EAP 6.4.8.
 You will need to download the binaries from the RedHat site and put them into the appropriate folders.
 
 * Download the BPM Suite and EAP installers and upload them to the installers directory.
+   * jboss-bpmsuite-6.3.0.GA-installer.jar
+   * jboss-eap-6.4.0-installer.jar
 * Download the patch for EAP 6.4.8 and upload this to the patch directory.
+   * jboss-eap-6.4.8-patch.zip
 * Download these files in the support folder:
     * eap.xml
     * eap.xml.variables
