@@ -1,8 +1,9 @@
+
 # ReactiveBPMDemo
 
 This repo contains the code for the POC that is part of RedHat Session S103127.
 
-# Dockerfile
+# BPM Suite Dockerfile
 Dockerfile - This file can be used to build a docker imaging of BPM Suite.
 For it to work, you need to create 3 directories:  patch, installers, and support.
 It currently installs BPM Suite 6.3 and EAP 6.4.8.
@@ -15,3 +16,7 @@ You will need to download the binaries from the RedHat site and put them into th
     * eap.xml.variables
     * bpms.xml
     * bpms.xml.variables
+
+#Kie Server Kafka Extension
+You can find David Murphy's at the below repo
+https://gitlab.com/murph83/kie-server-kafka.git
