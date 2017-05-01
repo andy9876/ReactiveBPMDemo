@@ -20,5 +20,5 @@ You will need to download the binaries from the RedHat site and put them into th
     * bpms.xml.variables
 
 # Kie Server Kafka Extension
-You can find David Murphy's at the below repo
+You can find David Murphy's kie server kafka extension at the below repo
 https://gitlab.com/murph83/kie-server-kafka.git
