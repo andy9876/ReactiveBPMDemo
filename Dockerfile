@@ -1,5 +1,5 @@
-FROM docker.io/racccosta/rhel-jdk:7.3
-MAINTAINER Andy Bonham <bonhamandy@gmail.com>
+FROM jboss/bpms:6.4.2
+MAINTAINER Andy Bonham <>
  
 USER root
  
