@@ -1,4 +1,5 @@
-FROM jboss/bpms:6.4.2
+FROM docker.io/racccosta/rhel-jdk:7.3
+
 MAINTAINER Andy Bonham <>
  
 USER root
