@@ -1,4 +1,4 @@
-FROM docker.io/racccosta/rhel-jdk:7.3
+FROM jboss/base-jdk:7
 
 MAINTAINER Andy Bonham <>
  
