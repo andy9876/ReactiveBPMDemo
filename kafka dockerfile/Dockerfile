@@ -1,5 +1,5 @@
 FROM jboss/base-jdk:8
-MAINTAINER Andrew Bonham andrew.bonham@capialone.com
+MAINTAINER Andrew Bonham <>
 EXPOSE 9092
 ADD ./kafka_2.10-0.10.2.0.gz /opt/kafka_2.10-0.10.2.0.gz
 RUN ls -ltr /opt/kafka_2.10-0.10.2.0.gz/kafka_2.10-0.10.2.0/bin
