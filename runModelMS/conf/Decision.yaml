@@ -1,0 +1,7 @@
+#Yaml Configuration file
+
+#Kafka Parameters
+#Comma Separated Broker List
+metadata.broker.list : <update to your kafka IP>:9092
+serializer.class : kafka.serializer.StringEncoder
+kafka.topic : decisioning

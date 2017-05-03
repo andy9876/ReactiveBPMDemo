@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>fraud</artifactId>
+  <version>1.5.0</version>
+  <packaging>kjar</packaging>
+  <name>fraudexample</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.redhat.demo</groupId>
+      <artifactId>kie-server-kafka-workitem</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.redhat.demo</groupId>
+      <artifactId>kie-server-kafka-api</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>guvnor-m2-repo</id>
+      <name>Guvnor M2 Repo</name>
+      <url>http://184.73.77.202:8080/business-central/maven2/</url>
+    </repository>
+  </repositories>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.kie</groupId>
+        <artifactId>kie-maven-plugin</artifactId>
+        <version>6.4.0.Final-redhat-3</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
