@@ -1,6 +1,7 @@
 # ReactiveBPMDemo
 
-This repo contains the code for the POC that is part of RedHat Session S103127.
+This repo contains the code for the POC that is part of RedHat Session S103127:  Using BPM Suite in a reactive architecture with microservices deployed in Docker containers and managed in Amazon ECS (EC2 Container Service)
+
 
 # BPM Suite Dockerfile and setup files
 Dockerfile - This file can be used to build a docker imaging of BPM Suite.
