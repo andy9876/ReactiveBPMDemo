@@ -39,3 +39,8 @@ To run the docker container:
 
   ```docker run -d runmodelms:latest```
 
+# Kafka and Zookeeper Dockerfiles
+The included Dockerfiles require kafka_2.10-0.10.2.0.gz, you can download this off of https://kafka.apache.org/downloads
+
+
+
