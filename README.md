@@ -41,6 +41,10 @@ To run the docker container:
 
 # Kafka and Zookeeper Dockerfiles
 The included Dockerfiles require kafka_2.10-0.10.2.0.gz, you can download this off of https://kafka.apache.org/downloads
+To run these containers:
+  ```docker run -p 9092:9092 --entrypoint /opt/kafka_2.10-0.10.2.0.gz/kafka_2.10-0.10.2.0/bin/kafka-server-start.sh -d --name kafka kafka:latest /opt/kafka_2.10-0.10.2.0.gz/kafka_2
+.10-0.10.2.0/config/server.properties --override zookeeper.connect=<zookeeperIP>:2181 --override advertised.listeners=PLAINTEXT://<kafkaIP>:9092 --override advertised.host.name=<kafkaIP> --override advertised.port=9092```
+
 
 
 
