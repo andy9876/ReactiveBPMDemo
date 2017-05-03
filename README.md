@@ -19,6 +19,9 @@ You will need to download the binaries from the RedHat site and put them into th
     * bpms.xml
     * bpms.xml.variables
 
+After building the image, use the below command to run the docker container
+```docker run -p 8080:8080 -p 8001:8001 -d bpmsuite```
+
 # Kie Server Kafka Extension
 You can find David Murphy's kie server kafka extension at the below repo
 https://gitlab.com/murph83/kie-server-kafka.git
@@ -32,3 +35,7 @@ This is a java based microservice that generates a random value in the action at
   ```{"id": "33bb75db-6e13-48ee-8a54-b3976d3d065b","action": "Run Fraud Model"}```
 
 Leverage the Dockerfile to build the container.
+To run the docker container:
+
+  ```docker run -d runmodelms:latest```
+
