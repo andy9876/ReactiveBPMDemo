@@ -28,5 +28,7 @@ This contains the source code for the bpm suite fraud example
 
 # RunModelMS
 This is a java based microservice that generates a random value in the action attribute of either "Tranaction OK" or "Fraudulent Transaction", for example:
-``{"id": "33bb75db-6e13-48ee-8a54-b3976d3d065b","action": "Run Fraud Model"}``
+
+  ```{"id": "33bb75db-6e13-48ee-8a54-b3976d3d065b","action": "Run Fraud Model"}```
+
 Leverage the Dockerfile to build the container.
